@@ -5,18 +5,21 @@
 
 ![Breast Cancer Predictions](./bcr.png)
 
-What is provided:
-- [x] Reading PGM files
-- [x] Reading CSV files
-- [x] Data Pre-processing
+## Implementation Notes:
+1. Processing:
+    - [x] Reading PGM files
+    - [x] Reading CSV files
+    - [x] Image pre-processing
+2. Model Architecture:
 - [x] Sequential Layers:
-    - [x] Convolutions
-    - [x] Max Pooling
+    - [x] 4 Convolutions
+    - [x] 3 Max Pooling
     - [x] Dropout
-- [x] Model training:
+    - [x] 3 Dense layers
+- [x] Layer specifications:
     - [x] ReLU / Softmax Activations
     - [x] Crossentropy loss
     - [x] RMSProp Optimizer
-- [x] Making predictions:
+3. Making predictions:
     - [x] Displaying mammograms
     - [x] Labeling them
