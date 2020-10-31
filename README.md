@@ -3,7 +3,7 @@
 
 - The model was implemented using TensorFlow and Keras on top of Python.
 
-![Breast Cancer Predictions](BCR.png)
+![Breast Cancer Predictions](./BCR.png)
 
 What is provided:
 - [x] Reading PGM files
